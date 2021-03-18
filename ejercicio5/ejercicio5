@@ -1,0 +1,42 @@
+<html>
+
+<body>
+
+    <h2 id="style">Tres Botones Para Cambiarlo Todo</h2>
+
+    <img id="atleti" src="atleti.png">
+
+    <br>
+    <br>
+
+    <button onclick="document.getElementById('style').style.fontFamily='verdana'">Cambiar a Verdana</button>
+
+    <button onclick="document.getElementById('style').style.fontFamily='arial'">Cambiar a Arial</button>
+
+    <button onclick="document.getElementById('style').style.fontFamily='courier'">Cambiar a Courier</button>
+
+    <br>
+    <br>
+
+    <button onclick="document.getElementById('atleti').src='campeones.jpg'">A campeonar</button>
+
+    <button onclick="document.getElementById('atleti').src='aficion.jpg'">Aficion</button>
+
+    <br>
+    <br>
+
+    <button onclick="document.getElementById('ole').innerHTML='Que me gusta mi Atleti'">A tuti</button>
+
+    <button onclick="document.getElementById('ole').innerHTML='Ofu que poca imaginacion'">Ya ve</button>
+
+    <button onclick="document.getElementById('ole').innerHTML='No me se ocurre na'">To cateto ave</button>
+
+    <br>
+    <br>
+
+    <div id="ole">
+    </div>
+
+</body>
+
+</html>
