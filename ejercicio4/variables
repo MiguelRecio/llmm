@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+
+<body>
+
+    <p>Create a variable, assign a value to it, and display it:</p>
+
+    <p id="demo"></p>
+
+    <p id="caballos"></p>
+
+    <p id="puertas"></p>
+
+    <script>
+        var carName = "Volvo XC40";
+        document.getElementById("demo").innerHTML = carName;
+
+        var caballos = "125 cv";
+        document.getElementById("caballos").innerHTML = caballos;
+
+        var puertas = "5 puertas";
+        document.getElementById("puertas").innerHTML = puertas;
+    </script>
+
+</body>
+
+</html>
